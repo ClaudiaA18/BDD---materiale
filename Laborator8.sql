@@ -2,7 +2,7 @@
 -- În ambele cazuri trebuie să avem grijă la constrângeri
 
 -- Exemplu clasic, valorile sunt inserate în ordinea de creare a coloanelor
-INSERT INTO [dbo].[employees] -- Dacă omitem coloanele, trebuie să respectăm tipul de date
+INSERT INTO dbo.employees -- Dacă omitem coloanele, trebuie să respectăm tipul de date
 VALUES (
 	3 -- Valoare coloana 1
 	,'NEW' -- Valoare coloana 2
